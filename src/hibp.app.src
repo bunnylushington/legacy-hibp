@@ -1,0 +1,15 @@
+{application, hibp,
+ [{description, "Have I Been Pwned Password Check Client"},
+  {vsn, "1.0.0"},
+  {registered, []},
+  {mod, {hibp_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.

@@ -1,0 +1,21 @@
+#!/bin/bash
+
+
+case $1 in
+
+    start)
+        docker stack deploy -c docker-compose.yml hibp
+        ;;
+    stop)
+        docker stack rm hibp
+        ;;
+    ps)
+        docker stack ps hibp
+        ;;
+    shell)
+        docker attach $(docker ps --filter name=hibp --format "{{.ID}}")
+        ;;
+    *)
+        echo "start|stop|shell|ps"
+        ;;
+esac
