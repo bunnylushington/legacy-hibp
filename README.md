@@ -31,6 +31,7 @@ Further Reading
 ---------------
 
 [HIBP API v3 Documentation](https://haveibeenpwned.com/API/v3#PwnedPasswords)
+
 [HIBP Methodology](https://www.troyhunt.com/ive-just-launched-pwned-passwords-version-2/)
 
 
@@ -47,5 +48,5 @@ package.  The credits for that packe read:
 %%% Original page: http://github.com/nicolasff/sha1-erlang/
 ```
 
-Many thanks to Mr. Favre-Felix.
+Many thanks to Nicolas Favre-Felix and HIBP author Troy Hunt.
 
