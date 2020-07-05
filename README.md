@@ -39,7 +39,7 @@ Credits
 -------
 
 I've incorporated the Public Domain library sha1-erlang into this
-package.  The credits for that packe read:
+package.  The credits for that package read:
 
 ``` erlang
 %%% SHA-1 module
